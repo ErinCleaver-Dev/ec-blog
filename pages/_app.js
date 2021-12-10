@@ -1,7 +1,26 @@
-// file used to apply gobal styles
+import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
-import '@styles/global.scss';
- 
-const App = ({ Component, pageProps }) => <Component {...pageProps} />;
- 
-export default App;
+const GlobalStyle = createGlobalStyle`
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+`
+
+const theme = {
+  colors: {
+    primary: '#0070f3',
+  },
+}
+
+export default function App({ Component, pageProps }) {
+  return (
+    <>
+      <GlobalStyle />
+      <ThemeProvider theme={theme}>
+        <Component {...pageProps} />
+      </ThemeProvider>
+    </>
+  )
+}

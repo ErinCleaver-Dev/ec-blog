@@ -1,10 +1,12 @@
-// Creatubg the home page for blog posts
+import { getPosts } from "../firebase/models/posts"
 
-import styles from '@styles/index.module.scss';
 
 const HomePage = () => {
+    let posts = getPosts();
+    console.log(posts)
     return (
-        <div className={styles}>
+        
+        <div>
             <h1>Hello and welcome to the home page</h1>
         </div>
     )
