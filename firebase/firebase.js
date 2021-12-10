@@ -9,7 +9,6 @@ const firebaseConfig  =  {
     databaseURL: process.env.databaseURL,
     storageBucket: process.env.STORAGE_BUCKET
 };
-
 const app =firebase.initializeApp(firebaseConfig);
 
 const db = getDatabase(app);
