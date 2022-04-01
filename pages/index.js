@@ -2,7 +2,10 @@ import { getPosts } from "../firebase/models/posts"
 
 
 const HomePage = () => {
-    let posts = getPosts();
+    let posts = []
+
+    posts = getPosts();
+
     console.log(posts)
     return (
         
