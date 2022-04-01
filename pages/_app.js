@@ -1,10 +1,14 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
 
 const GlobalStyle = createGlobalStyle`
+  div#__next {
+    display: flex;
+    flex-direction: column;
+  }
   body {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
 `
 
