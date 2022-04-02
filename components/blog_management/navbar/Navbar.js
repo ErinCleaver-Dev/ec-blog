@@ -10,7 +10,7 @@ import { Button } from '@mui/material'
 
 const Navbar = () => {
 
-    let isLoggedIn = true;
+    let isLoggedIn = false;
     let role = 'admin'
     return (
         <StyledNavBar>
@@ -18,6 +18,9 @@ const Navbar = () => {
                     EC-Blogging Tool
             </Link>
             <AlignNavLeft>
+                <Link href="/">
+                    Home
+                </Link> 
                 {isLoggedIn ? (<>
                     {role == "admin" ? 
                     (<>    

@@ -5,10 +5,19 @@ const GlobalStyle = createGlobalStyle`
     display: flex;
     flex-direction: column;
   }
-  body {
-    font-family: 'Roboto', sans-serif;
+  * {
     margin: 0;
     padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+  footer {
+    text-align: center;
+    border-top: 1px solid black;
+    padding: 10px;
   }
 `
 

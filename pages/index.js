@@ -1,5 +1,7 @@
 import { getPosts } from "../firebase/models/posts"
 import Navbar from "../components/enduser/navbar/Navbar"
+import Footer from "../components/footer/Footer"
+import {Body} from "../components/styles/Styles"
 
 const HomePage = () => {
     let posts = []
@@ -11,7 +13,10 @@ const HomePage = () => {
         
         <div>
             <Navbar />
+            <Body>
             <h1>Hello and welcome to the home page</h1>
+            </Body>
+            <Footer/>
         </div>
     )
 }
