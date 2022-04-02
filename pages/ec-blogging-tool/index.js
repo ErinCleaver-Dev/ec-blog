@@ -1,10 +1,10 @@
-import NavigationBar from '../../components/blog_management/navbar/NavigationBar'
+import Navbar from '../../components/blog_management/navbar/Navbar'
 
 
 const HomeECBloggingTools = () => {
     return (
         <>
-            <NavigationBar />
+            <Navbar />
             A website for the management, creation, and delopment of blogs.
         </>
     )

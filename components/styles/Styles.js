@@ -22,3 +22,8 @@ export const StyledNavBar = styled(Box)`
         border-radius: 5px;
 `
 
+export const AlignNavLeft = styled.div`
+    display: flex;
+    padding-right: 60px;
+`
+
