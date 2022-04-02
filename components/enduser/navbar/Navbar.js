@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React from 'react'
 import { StyledNavBar } from '../../styles/Styles'
 import styled from 'styled-components'
@@ -37,3 +38,5 @@ const NavigationBar = () => {
 }
 
 export default NavigationBar
+=======
+>>>>>>> parent of 8ea246d (update)
