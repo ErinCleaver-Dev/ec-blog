@@ -1,4 +1,6 @@
 import { createGlobalStyle, ThemeProvider } from 'styled-components'
+import '../styles/globals.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
 
 const GlobalStyle = createGlobalStyle`
   div#__next {
@@ -19,6 +21,7 @@ const theme = {
 }
 
 export default function App({ Component, pageProps }) {
+
   return (
     <>
       <GlobalStyle />

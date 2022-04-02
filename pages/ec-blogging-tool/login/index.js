@@ -1,9 +1,9 @@
-import Navbar from "../../../components/blog_management/navbar/Navbar"
+import NavigationBar from "../../../components/blog_management/navbar/NavigationBar"
 
 const Login = () => {
     return (
         <div>
-            <Navbar/>
+            <NavigationBar/>
             Login into profile
         </div>
     )

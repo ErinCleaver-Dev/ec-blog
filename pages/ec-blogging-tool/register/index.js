@@ -1,9 +1,9 @@
-import Navbar from "../../../components/blog_management/navbar/Navbar"
+import NavigationBar from "../../../components/blog_management/navbar/NavigationBar"
 
 const Register = () => {
     return (
         <div>
-            <Navbar />
+            <NavigationBar />
             Create a new blog and admin account
         </div>
     )
