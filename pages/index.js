@@ -1,5 +1,5 @@
 import { getPosts } from "../firebase/models/posts"
-import NavigationBar from "../components/enduser/navbar/NavigationBar"
+import NavigationBar from "../components/enduser/navbar/Navbar"
 
 const HomePage = () => {
     let posts = []
@@ -8,6 +8,7 @@ const HomePage = () => {
 
     console.log(posts)
     return (
+        
         <div>
             <NavigationBar />
             <h1>Hello and welcome to the home page</h1>
